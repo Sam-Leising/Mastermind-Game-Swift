@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C119DA51276DD57C00D0FDBC /* Mastermind.swift in Sources */ = {isa = PBXBuildFile; fileRef = C119DA50276DD57C00D0FDBC /* Mastermind.swift */; };
+		C161B48E276E105500201BF9 /* PickColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C161B48D276E105500201BF9 /* PickColorViewController.swift */; };
+		C1DEF19727474CFC000E259A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DEF19627474CFC000E259A /* AppDelegate.swift */; };
+		C1DEF19927474CFC000E259A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DEF19827474CFC000E259A /* SceneDelegate.swift */; };
+		C1DEF19B27474CFC000E259A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DEF19A27474CFC000E259A /* ViewController.swift */; };
+		C1DEF19E27474CFC000E259A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1DEF19C27474CFC000E259A /* Main.storyboard */; };
+		C1DEF1A127474CFC000E259A /* MastermindGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C1DEF19F27474CFC000E259A /* MastermindGame.xcdatamodeld */; };
+		C1DEF1A327474CFD000E259A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1DEF1A227474CFD000E259A /* Assets.xcassets */; };
+		C1DEF1A627474CFD000E259A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1DEF1A427474CFD000E259A /* LaunchScreen.storyboard */; };
+		C1DEF1AE27474D90000E259A /* MastermineGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DEF1AD27474D90000E259A /* MastermineGameViewController.swift */; };
+		C1E4F6E8274A32A400ADC9AA /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E4F6E7274A32A400ADC9AA /* HistoryViewController.swift */; };
+		C1E4F6EB274A348C00ADC9AA /* Game_History+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E4F6E9274A348C00ADC9AA /* Game_History+CoreDataClass.swift */; };
+		C1E4F6EC274A348C00ADC9AA /* Game_History+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E4F6EA274A348C00ADC9AA /* Game_History+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C119DA50276DD57C00D0FDBC /* Mastermind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mastermind.swift; sourceTree = "<group>"; };
+		C161B48D276E105500201BF9 /* PickColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickColorViewController.swift; sourceTree = "<group>"; };
+		C1DEF19327474CFC000E259A /* MastermindGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MastermindGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1DEF19627474CFC000E259A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1DEF19827474CFC000E259A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C1DEF19A27474CFC000E259A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1DEF19D27474CFC000E259A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1DEF1A027474CFC000E259A /* MastermindGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MastermindGame.xcdatamodel; sourceTree = "<group>"; };
+		C1DEF1A227474CFD000E259A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1DEF1A527474CFD000E259A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1DEF1A727474CFD000E259A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1DEF1AD27474D90000E259A /* MastermineGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MastermineGameViewController.swift; sourceTree = "<group>"; };
+		C1E4F6E7274A32A400ADC9AA /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		C1E4F6E9274A348C00ADC9AA /* Game_History+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game_History+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C1E4F6EA274A348C00ADC9AA /* Game_History+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game_History+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1DEF19027474CFC000E259A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1DEF18A27474CFC000E259A = {
+			isa = PBXGroup;
+			children = (
+				C1E4F6E9274A348C00ADC9AA /* Game_History+CoreDataClass.swift */,
+				C1E4F6EA274A348C00ADC9AA /* Game_History+CoreDataProperties.swift */,
+				C1DEF19527474CFC000E259A /* MastermindGame */,
+				C1DEF19427474CFC000E259A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1DEF19427474CFC000E259A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1DEF19327474CFC000E259A /* MastermindGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1DEF19527474CFC000E259A /* MastermindGame */ = {
+			isa = PBXGroup;
+			children = (
+				C1DEF19627474CFC000E259A /* AppDelegate.swift */,
+				C1DEF19827474CFC000E259A /* SceneDelegate.swift */,
+				C1DEF19A27474CFC000E259A /* ViewController.swift */,
+				C1DEF19C27474CFC000E259A /* Main.storyboard */,
+				C1DEF1A227474CFD000E259A /* Assets.xcassets */,
+				C1DEF1A427474CFD000E259A /* LaunchScreen.storyboard */,
+				C1DEF1A727474CFD000E259A /* Info.plist */,
+				C1DEF19F27474CFC000E259A /* MastermindGame.xcdatamodeld */,
+				C1DEF1AD27474D90000E259A /* MastermineGameViewController.swift */,
+				C1E4F6E7274A32A400ADC9AA /* HistoryViewController.swift */,
+				C119DA50276DD57C00D0FDBC /* Mastermind.swift */,
+				C161B48D276E105500201BF9 /* PickColorViewController.swift */,
+			);
+			path = MastermindGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1DEF19227474CFC000E259A /* MastermindGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1DEF1AA27474CFD000E259A /* Build configuration list for PBXNativeTarget "MastermindGame" */;
+			buildPhases = (
+				C1DEF18F27474CFC000E259A /* Sources */,
+				C1DEF19027474CFC000E259A /* Frameworks */,
+				C1DEF19127474CFC000E259A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MastermindGame;
+			productName = MastermindGame;
+			productReference = C1DEF19327474CFC000E259A /* MastermindGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1DEF18B27474CFC000E259A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					C1DEF19227474CFC000E259A = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = C1DEF18E27474CFC000E259A /* Build configuration list for PBXProject "MastermindGame" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1DEF18A27474CFC000E259A;
+			productRefGroup = C1DEF19427474CFC000E259A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1DEF19227474CFC000E259A /* MastermindGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1DEF19127474CFC000E259A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1DEF1A627474CFD000E259A /* LaunchScreen.storyboard in Resources */,
+				C1DEF1A327474CFD000E259A /* Assets.xcassets in Resources */,
+				C1DEF19E27474CFC000E259A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1DEF18F27474CFC000E259A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E4F6EB274A348C00ADC9AA /* Game_History+CoreDataClass.swift in Sources */,
+				C1DEF19B27474CFC000E259A /* ViewController.swift in Sources */,
+				C119DA51276DD57C00D0FDBC /* Mastermind.swift in Sources */,
+				C1DEF1A127474CFC000E259A /* MastermindGame.xcdatamodeld in Sources */,
+				C161B48E276E105500201BF9 /* PickColorViewController.swift in Sources */,
+				C1DEF1AE27474D90000E259A /* MastermineGameViewController.swift in Sources */,
+				C1DEF19727474CFC000E259A /* AppDelegate.swift in Sources */,
+				C1DEF19927474CFC000E259A /* SceneDelegate.swift in Sources */,
+				C1E4F6EC274A348C00ADC9AA /* Game_History+CoreDataProperties.swift in Sources */,
+				C1E4F6E8274A32A400ADC9AA /* HistoryViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C1DEF19C27474CFC000E259A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1DEF19D27474CFC000E259A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1DEF1A427474CFD000E259A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1DEF1A527474CFD000E259A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1DEF1A827474CFD000E259A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1DEF1A927474CFD000E259A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1DEF1AB27474CFD000E259A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MastermindGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.MastermindGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1DEF1AC27474CFD000E259A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MastermindGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.MastermindGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1DEF18E27474CFC000E259A /* Build configuration list for PBXProject "MastermindGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1DEF1A827474CFD000E259A /* Debug */,
+				C1DEF1A927474CFD000E259A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1DEF1AA27474CFD000E259A /* Build configuration list for PBXNativeTarget "MastermindGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1DEF1AB27474CFD000E259A /* Debug */,
+				C1DEF1AC27474CFD000E259A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C1DEF19F27474CFC000E259A /* MastermindGame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C1DEF1A027474CFC000E259A /* MastermindGame.xcdatamodel */,
+			);
+			currentVersion = C1DEF1A027474CFC000E259A /* MastermindGame.xcdatamodel */;
+			path = MastermindGame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C1DEF18B27474CFC000E259A /* Project object */;
+}
